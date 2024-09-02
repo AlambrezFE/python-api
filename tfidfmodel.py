@@ -19,7 +19,7 @@ try:
 except LookupError:
     nltk.download('wordnet')
     nltk.download('omw-1.4')
-    nltk.download('punkt')
+    nltk.download('punkt_tab')
 
 class CourseRecommender:
     def __init__(self):
