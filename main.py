@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from model import CourseRecommender
+from tfidfmodel import CourseRecommender
 
 app = Flask(__name__)
 recommender = CourseRecommender()
